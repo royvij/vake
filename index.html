@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author"      content="Sergey Pozhilov (GetTemplate.com)">
+	
+	<title>Vake Computer Consulting</title>
+
+	<link rel="shortcut icon" href="assets/images/gt_favicon.png">	
+	<link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	<!-- Custom styles -->
+	<link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen" >
+	<link rel="stylesheet" href="assets/css/main.css">
+
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	<script src="assets/js/html5shiv.js"></script>
+	<script src="assets/js/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body class="home">
+	<!-- container -->
+	<div id="app">
+		<!-- Fixed navbar -->
+		<div class="navbar navbar-inverse navbar-fixed-top headroom" >
+			<div class="container">
+				<div class="navbar-header">
+					<!-- Button for smallest screens -->
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+					<!-- <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt="Progressus HTML5 template"></a> -->
+				</div>
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav pull-right">
+						<li><router-link to="/">Home</router-link></li>
+						<li><router-link to="/about">About</router-link></li>
+						<li><router-link to="/services">Services</router-link></li>
+						<li><router-link to="/experience">Experience</router-link></li>
+						<li><router-link to="/remote">Remote Time</router-link></li>
+						<li><router-link to="/consulting">Consulting Agreement</router-link></li>
+					</ul>
+				</div><!--/.nav-collapse -->
+			</div>
+		</div> 
+		<!-- /.navbar -->
+
+		<div id="main-content" class="container top-gap">
+			<router-view></router-view>
+		</div>
+
+		<footer id="footer" class="footer navbar-fixed-bottom">
+			<div class="footer1">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12" >
+							<p><strong>Contact: </strong>+1 657-201-7054
+								<strong>Email: </strong><a href="mailto:vakeconsulting@vakeconsulting.net">vakeconsulting@vakeconsulting.net</a><br>
+								Anaheim, CA
+							</p>
+						</div>
+					</div> <!-- /row of widgets -->
+				</div>
+			</div>
+
+			<div class="footer2">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 ">
+							<p class="text-center">
+								Copyright &copy; 2019, Vake Computer Consulting
+							</p>
+						</div>
+
+					</div> <!-- /row of widgets -->
+				</div>
+			</div>
+
+		</footer>
+	</div>	<!-- /container -->
+
+
+	<!--Home Template -->	
+	<template id="home-template">
+		<div>
+			<!-- Header -->
+			<header id="head">
+				<div class="container">
+					<div class="row">
+						
+					</div>
+				</div>
+			</header>
+			<!-- /Header -->
+		</div>
+	</template>
+	<!--Home template ends-->
+
+	<!-- About template starts -->
+	<template id="about-template">
+		<div>
+			<ol class="breadcrumb">
+				<li><router-link to="/">Home</router-link></li>
+				<li class="active">About</li>
+			</ol>
+			<section class="maincontent">
+				<h2 class="page-title">About Us</h2>
+				<p>
+					We are a group of consultants with over 100 years of combined experience with Computer Networks. We have experience with major corporate networks building and maintaining Data Centers, 
+					Hypervisors, Vmware, Hyper V, Network OS, Databases, Cloud Deployments such as Azure and Amazon Web Services. Technical support for PC and MAC from basic to complex Network Support. Security compliance for PCI, Sox and HIPAA.
+				</p>
+			</section>
+		</div>
+	</template>
+	<!-- about ends -->
+	<!-- Services template starts -->
+	<template id="services-template">
+		<div>
+			<ol class="breadcrumb">
+				<li><router-link to="/">Home</router-link></li>
+				<li class="active">Services</li>
+			</ol>
+			<section class="maincontent">
+				<h2 class="page-title">On Site and Remote Technical Support</h2>
+				<ul>
+					<li></li>
+				</ul>
+				<p>
+					Network Security, HIPAA, PCI Compliance, NAS Build, Network Hypervisors VmWare and HyperV Configuration & Administration / Window Server Build, 
+					
+					Configuration & Administration / Databases SQL, No-SQL, Access, Filemaker / Website & Domain Transfers / Microsoft 365 Migrations / Email / Calendaring / 
+					
+					Contact Management / Spyware & Virus Removal / System Speed Enhancement / System Tune Up / Windows 10 / Windows 8 / Windows 7 / VISTA / 
+					
+					XP Install & Upgrades / PC System Build & Configuration / Data Recovery / File & Settings Transfers / PC Memory, Hard Drive, Video Card, 
+					
+					Motherboard & Peripheral Upgrades Backup & Disaster Recovery Plan Implementation / Simple to Advanced Networking for File, Printer, Device Sharing
+
+					Wired Connectivity / Wireless Connectivity / VPN / Firewalls, Routing & Remote administration of Home & Office PC's
+				</p>
+			</section>
+		</div>
+	</template>
+	<!-- services ends -->
+
+	<!-- Experience template starts -->
+	<template id="experience-template">
+		<div>
+			<ol class="breadcrumb">
+				<li><router-link to="/">Home</router-link></li>
+				<li class="active">Experience</li>
+			</ol>
+			<section class="maincontent">
+				<h2 class="page-title">Experience</h2>
+				<p>
+					We have experience with major corporate networks building and maintaining Data Centers, Hypervisors, Vmware, Hyper V, Network OS, Cloud Deployments such as Azure and Amazon Web Services. Technical support for PC and MAC from basic to Network Support. Security compliance for PCI, Sox and HIPAA.
+				</p>
+			</section>
+		</div>
+	</template>
+	<!-- experience ends -->
+
+	<!-- Remote template starts -->
+	<template id="remote-template">
+		<div>
+			<ol class="breadcrumb">
+				<li><router-link to="/">Home</router-link></li>
+				<li class="active">Remote</li>
+			</ol>
+			<section class="maincontent">
+				<h2 class="page-title">Remote</h2>
+				<p>
+					Most non-hardware related problems can be handled remotely and save clients money. Please call to schedule remote time.
+				</p>
+			</section>
+		</div>
+	</template>
+	<!-- remote ends -->
+
+	<!-- Consulting template starts -->
+	<template id="consulting-template">
+		<div>
+			<ol class="breadcrumb">
+				<li><router-link to="/">Home</router-link></li>
+				<li class="active">Consulting</li>
+			</ol>
+			<section class="maincontent">
+				<h2 class="page-title">Consuling Agreement</h2>
+				<p>
+					<b>Release and Indemnification</b><br />
+					CLIENT hereby releases and agrees to hold harmless, defend and indemnify
+					Consultant, from any and all claims, actions, proceedings, suits,
+					liabilities, damages (actual, consequential, or incidental),
+					settlements, penalties, fines, costs or expenses (including without
+					limitation, reasonable attorney’s fees and other litigation expenses) of
+					every kind, whether known or unknown, incurred by CLIENT arising out of
+					this Agreement.
+				</p>
+				<p>
+					<b>Limitation of Liability</b><br />
+					In no event shall Consultant be liable for indirect, special or
+					consequential damage suffered by CLIENT in connection, directly or
+					indirectly, with the action or inaction of Consultant under or in
+					relation to this Agreement.
+				</p>
+				<p>
+					<b>Liability for Data Loss</b><br />
+					CLIENT understands that there are inherent risks in providing support to
+					computer systems which include but are not limited to data loss, data
+					corruption, or complete loss of files or directories. CLIENT agrees that
+					Consultant will not be held liable for damages in the case of data loss.
+				</p>
+				<p>
+					<b>Independent Contractor</b><br />
+					Both CLIENT and Consultant agree that Consultant will act as an
+					independent contractor in the performance of duties under this contract.
+					Accordingly, Consultant shall be responsible for payment of all taxes
+					including Federal and Provincial taxes arising out of Consultant’s
+					activities in accordance with this contract. Nothing contained in this
+					Agreement is intended to constitute the Parties as partners or joint
+					venturers in the legal sense. Neither party intends that a partnership,
+					joint venture or similar relationship be formed by this Agreement or any
+					performance hereunder. Neither party shall have any express or implied
+					right or authority to assume or create any obligations on behalf of, or
+					in the name of, the other or to bind the other to any contract,
+					agreement or undertaking with any third party.
+				</p>
+				<p>
+					<b>Confidentiality</b><br />
+					Each party agrees that the Confidential Information of the other party
+					will be held in confidence to the same extent and the same manner as
+					each party protects its own Confidential Information, but each party
+					agrees that in no event will less than reasonable care be used. Each
+					party shall, however, be permitted to disclose relevant aspects of such
+					Confidential Information to its officers or employees on a need-to- know
+					basis, provided they have undertaken to protect the Confidential
+					Information to the same extent as required under this Agreement.
+					“Confidential Information” means each party’s trade secrets, financial
+					information, formulas, specifications, programs, instructions, technical
+					know-how, methods of operation, testing benchmarks, any other
+					information identified by a party as Confidential Information, and any
+					other information that should reasonably be understood to be
+					confidential or proprietary. The confidential Information referred to in
+					this Section shall not apply in the following cases: If it was already
+					known to the other party, if it was disclosed- without obligation to
+					keep the information confidential, if it was publicly known or became
+					publicly known through no-fault of the receiving party, if it was
+					independently developed by the receiving party without use of the other
+					party’ Confidential Information, or if it is required to be disclosed by
+					a court of competent jurisdiction and in that case, the disclosing party
+					shall be granted a reasonable opportunity to obtain a protective order.
+				</p>
+				<p>
+					<b>Governing Law and Jurisdiction</b><br />
+					This Agreement shall be governed by and construed in accordance with the
+					laws of the State of California applicable to agreements made regardless
+					of the place of physical execution of the agreement within such state,
+					without regard to its conflict of laws rules. CLIENT hereby irrevocably
+					and unconditionally submits to the exclusive jurisdiction of the courts
+					of Orange County, California in respect of any dispute under this
+					agreement.
+				</p>
+				<p>
+					<b>Entire Agreement</b><br />
+					The terms set forth in this Agreement are intended by the Parties as a
+					final, complete and exclusive expression of their agreement with respect
+					to the Services contemplated by this Agreement and may not be
+					contradicted, explained or supplemented by evidence of any prior
+					agreement, any contemporaneous oral agreement, or any consistent
+					additional terms. There are no restriction, promises, representations,
+					warranties, covenants, or undertakings, other than those expressly set
+					forth or referred to herein. This Agreement is not intended to confer
+					upon any person other than the parties hereto any rights or remedies
+					hereunder.
+				</p>
+				<p>
+					<b>Severability</b><br />
+					Should any term or provision hereof be deemed invalid, void or
+					unenforceable either in its entirety or in a particular application, the
+					remainder of this Agreement shall nonetheless remain in full force and
+					effect, and, if the subject term o provision is deemed to be invalid,
+					void or unenforceable only with respect to a particular application,
+					such term or provision shall remain in full force and effect with
+					respect to all other applications.
+				</p>
+				<p>
+					<b>Modifications</b><br />
+					All modifications to this Agreement must be in writing and signed by all
+					Parties.
+				</p>
+				<p>
+					<b>Force Majeure</b><br />
+					Consultant shall be excused from performance to the extent that
+					performance is prevented, delayed, or obstructed by causes beyond
+					Consultant’s reasonable control, including delays in performance by
+					CLIENT, acts of Nature (fire, storm, floods, earthquakes, etc.) civil
+					disturbances, disruption of telecommunications, power or essential
+					services.
+				</p>
+				<p>
+					<b>Assignment</b><br />
+					Neither of the parties may sell, transfer, assign or otherwise dispose
+					of any of its rights or obligations under this Agreement to any person
+					without the express written consent of the other party, except that
+					Consultant may, at its sole discretion, hire or sub-contract out
+					portions or all of the services to be provided hereunder.
+				</p>
+				<p>
+					<b>Claim Limitation</b><br />
+					CLIENT agrees, regardless of any statute or law to the contrary, that
+					any claim or cause of action arising out of or relating to this
+					Agreement must be filed within one (1) year after such claim of action
+					arose or be forever barred. If any party brings an action arising out of
+					this Agreement, the prevailing party shall be entitled to an award of
+					reasonable attorney’s fees, and any court costs incurred in such action
+					or proceeding, in addition to any other damages or relief awarded.
+				</p>
+				<p>
+					<b>Consents and Waivers</b><br />
+					Failure of any party at any time or times to require performance of any
+					provision hereof shall in no manner affect its right at a later time to
+					enforce the same, unless the same is waived in writing. No waiver by a
+					party of any condition or any breach of any term, covenant,
+					representation, or warranty contained in this Agreement shall be
+					effective unless in writing, and no waiver of any one or more instances
+					shall be deemed to be a further or continuing waiver of any such
+					condition or breach in other instances.
+				</p>
+			</section>
+		</div>
+	</template>
+	<!-- Consulting ends -->
+
+	<!-- Contact template starts -->
+	<template id="contact-template">
+		<div>
+			<ol class="breadcrumb">
+				<li><router-link to="/">Home</router-link></li>
+				<li class="active">Contact</li>
+			</ol>
+			<section class="maincontent">
+				<h2 class="page-title">Contact Us</h2>
+				<div class="row">
+					<div class="col-md-6">
+						<form>
+							<div class="form-group">
+								<label for="firstname">First Name</label>
+								<input
+									type="text"
+									class="form-control"
+									id="firstname"
+									placeholder="First Name"
+								/>
+							</div>
+							<div class="form-group">
+								<label for="lastname">Last Name</label>
+								<input
+									type="text"
+									class="form-control"
+									id="lastname"
+									placeholder="Last Name"
+								/>
+							</div>
+							<div class="form-group">
+								<label for="email">Email address</label>
+								<input
+									type="email"
+									class="form-control"
+									id="email"
+									aria-describedby="emailHelp"
+									placeholder="Enter email"
+								/>
+							</div>
+							<div class="form-group">
+								<label for="lastname">Contact No</label>
+								<input
+									type="text"
+									class="form-control"
+									id="phone"
+									placeholder="2222222222"
+								/>
+							</div>
+							<div class="form-group">
+								<label for="comments">Comments</label>
+								<textarea class="form-control" id="comments" rows="3"></textarea>
+							</div>
+							<button type="submit" class="btn btn-primary">Submit</button>
+						</form>
+					</div>
+				</div>
+			</section>
+		</div>
+	</template>
+		
+	<!-- contact ends -->
+
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script src="https://npmcdn.com/vue-router/dist/vue-router.js"></script>
+	<script>
+		//window.Vue = require('vue');
+		//import About from './About.vue'
+
+		const Home = Vue.component('home',{
+			template:'#home-template'
+		})
+
+		const About = Vue.component('about',{
+			template:'#about-template'
+		})
+
+		const Services = Vue.component('services',{
+			template:'#services-template'
+		})
+
+		const Experience = Vue.component('experience',{
+			template:'#experience-template'
+		})
+
+		const Remote = Vue.component('remote',{
+			template:'#remote-template'
+		})
+
+		const Consulting = Vue.component('consulting',{
+			template:'#consulting-template'
+		})
+
+		const routes = [
+			{ path: '/', component: Home },
+			{ path: '/about', component: About },
+			{ path: '/services', component: Services },
+			{ path: '/experience', component: Experience },
+			{ path: '/remote', component: Remote },
+			{ path: '/consulting', component: Consulting }
+		]
+
+		const router = new VueRouter({
+			routes // short for `routes: routes`
+		})
+
+		var vm = new Vue({
+			el: '#app',
+			router
+		})
+	</script>
+
+	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+	<script src="assets/js/headroom.min.js"></script>
+	<script src="assets/js/jQuery.headroom.min.js"></script>
+	<script src="assets/js/template.js"></script>
+	<!--Vue Js file-->
+	
+</body>
+</html>
